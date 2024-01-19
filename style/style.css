@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    --color1: white;
+    --color2: hsla(0, 0%, 0%, 0.726);
+    --color3: black;
+}
+
+header {
+    width: 98vw;
+    height: 20vh;
+    text-align: center;
+    padding-top: 5%;
+    background-color: var(--color3);
+}
+ .header-title{
+    color: var(--color1);
+    font-size: 3rem;
+ }
+
+ .poetry {
+    color: var(--color1);
+    font-size: 1rem;
+ }
+
+header > p > a {
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+}
+
+.section-white {
+    width: 98vw;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.white-container {
+    width: 30%;
+    height: 85%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.section-black {
+    border: 1px solid black;
+    width: 98vw;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 1px 5px 5px var(--color2);
+}
+
+#first {
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second {
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.black-container {
+    width: 30%;
+    height: 85%;
+    margin-right: 3%;
+    margin-top: 2%;
+    color: var(--color1);
+    background-color: var(--color2);
+}
+
+.poem {
+    text-align: center;
+    padding: 5%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    height: 10vh;
+    width: 98vw;
+    background-color: var(--color3);
+    text-align: center;
+    color: var(--color1);
+    padding-top: 30px;
+}
+
+footer > p {
+    font-size: 1.3rem;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: var(--color1);
+}
