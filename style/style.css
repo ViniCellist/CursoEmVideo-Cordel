@@ -1,28 +1,33 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
 * {
     margin: 0;
     --color1: white;
     --color2: hsla(0, 0%, 0%, 0.726);
     --color3: black;
+    --font-sriracha: 'Sriracha', cursive;
+    --font-passion: 'Passion One', sans-serif;
 }
 
 header {
     width: 100%;
     height: 20vh;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
     background-color: var(--color3);
     box-shadow: 1px 5px 5px var(--color2);
 }
  .header-title{
     color: var(--color1);
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: var(--font-passion);
  }
 
  .poetry {
     color: var(--color1);
     font-size: 1.5rem;
+    font-family: var(--font-passion);
  }
 
 header > p > a {
@@ -87,13 +92,19 @@ header > p > a {
     background-attachment: fixed;
 }
 
-
+#third {
+    background-image: url(../imagens/background003.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 .poem {
     text-align: center;
-    padding: 6%;
+    padding: 4%;
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: var(--font-sriracha);
 }
 
 footer {
