@@ -129,21 +129,25 @@ footer > p > a {
     color: var(--color1);
 }
 
-@media (min-width: 350px) {
+@media (min-width: 320px) {
 
     .header-title{
         margin-top: 4%;
         font-size: 3rem;
      }
 
+     .section-white, .section-black {
+        height: 60vh;
+    }
+
     .white-container {
         width: 60%;
-        margin-top: 25%
+        margin-top: 15%
     }
 
     .black-container { 
         width: 60%;
-        margin-top: 15%;
+        margin-top: 5%;
     }
 
     .poem {
@@ -157,6 +161,10 @@ footer > p > a {
         margin-top: 1%;
         font-size: 4rem;
      }
+
+     .section-white, .section-black {
+        height: 85vh;
+    }
 
      .white-container {
         width: 40%;
@@ -178,7 +186,11 @@ footer > p > a {
     .header-title{
         margin-top: 1%;
         font-size: 4rem;
-     }
+    }
+
+    .section-white, .section-black {
+        height: 90vh;
+    }
 
     .white-container {
         width: 40%;
@@ -192,6 +204,6 @@ footer > p > a {
 
     .poem {
         padding: 18px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
