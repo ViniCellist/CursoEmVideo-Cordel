@@ -128,3 +128,70 @@ footer > p > a {
     text-decoration: none;
     color: var(--color1);
 }
+
+@media (min-width: 350px) {
+
+    .header-title{
+        margin-top: 4%;
+        font-size: 3rem;
+     }
+
+    .white-container {
+        width: 60%;
+        margin-top: 25%
+    }
+
+    .black-container { 
+        width: 60%;
+        margin-top: 15%;
+    }
+
+    .poem {
+        padding: 2px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .header-title{
+        margin-top: 1%;
+        font-size: 4rem;
+     }
+
+     .white-container {
+        width: 40%;
+        margin-top: 5%
+    }
+
+    .black-container { 
+        width: 40%;
+        margin-top: 5%;
+    }
+
+    .poem {
+        padding: 18px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-title{
+        margin-top: 1%;
+        font-size: 4rem;
+     }
+
+    .white-container {
+        width: 40%;
+        margin-top: 5%
+    }
+
+    .black-container { 
+        width: 40%;
+        margin-top: 5%;
+    }
+
+    .poem {
+        padding: 18px;
+        font-size: 1.5rem;
+    }
+}
