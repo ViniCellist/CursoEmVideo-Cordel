@@ -129,7 +129,7 @@ footer > p > a {
     color: var(--color1);
 }
 
-@media (min-width: 320px) {
+@media (min-width: 280px) {
 
     .header-title{
         margin-top: 4%;
@@ -137,12 +137,12 @@ footer > p > a {
      }
 
      .section-white, .section-black {
-        height: 60vh;
+        height: 45vh;
     }
 
     .white-container {
         width: 60%;
-        margin-top: 15%
+        margin-top: 5%
     }
 
     .black-container { 
@@ -152,7 +152,7 @@ footer > p > a {
 
     .poem {
         padding: 2px;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
 }
 
