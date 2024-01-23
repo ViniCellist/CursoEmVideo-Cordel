@@ -3,6 +3,10 @@
 
 * {
     margin: 0;
+    
+}
+
+:root {
     --color1: white;
     --color2: hsla(0, 0%, 0%, 0.726);
     --color3: black;
